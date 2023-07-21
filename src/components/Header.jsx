@@ -36,7 +36,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <span className="navbar-text">Navbar text with an inline element</span>
+          <span className="navbar-text">Navbar</span>
         </div>
       </nav>
     </div>
