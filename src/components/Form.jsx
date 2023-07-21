@@ -19,10 +19,6 @@ const Form = () => {
     const [searchList, setSearchList] = useState([]);
 
 
-    //********** METHODS  */
-/*   const fetchData = () =>{
-  } */
-
 
 // Requete avec le boutton search
     useEffect(() => { 
@@ -47,12 +43,6 @@ const Form = () => {
  
       }, [search]);
     
-
-
-    /*   useEffect(() =>{
-      console.log(cocktailsData);
-      }, [cocktailsData]) */
-    //********** AFFICHAGE  */
 
     const simpleSubmit = (e) =>{
       e.preventDefault();
@@ -89,4 +79,3 @@ const Form = () => {
 };
 
 export default Form;
-{/* <Card key={index} cocktail={cocktail} /> */}
