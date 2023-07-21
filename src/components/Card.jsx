@@ -17,7 +17,7 @@ let navigate = useNavigate();
 
 const showOneCocktail = (cocktailId) => {
     console.log('click');
-    navigate("../cocktail/"+cocktailId); // ..pour remonter d'un cran dans le dossier user et . la ou on est
+    navigate("../cocktail/"+cocktailId); 
 } 
 
   return (
